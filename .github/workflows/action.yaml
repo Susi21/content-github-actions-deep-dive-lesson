@@ -17,7 +17,7 @@ jobs:
           python-version: 3.8 
       - name: Install libraries 
         run: |
-            cd funciton 
+            cd function
             python -m pip install --upgrade pip 
             if [ -f requirments.txt ]; then pip install -r requirments.txt -t .; fi 
       - name: Create zip bundle
